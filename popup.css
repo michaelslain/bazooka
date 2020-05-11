@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    padding: 5px;
+    background: white;
+    margin: 5px;
+    border-radius: 5px;
+    border: 0;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    font-size: bold;
+    width: 80px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: skyblue;
+    box-shadow: 2px 2px 2px skyblue;
+}
+
+button:hover {
+    border-color: #b210ff;
+    box-shadow: 2px 2px 2px #b210ff;
+}
